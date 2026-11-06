@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(251, 252, 252);
+}
+
+.cards {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.card {
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  padding: 10px;
+  border-radius: 40px;
+  height: 50vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  position: absolute;
+  top: 5vh;
+  left: 1vw;
+  background-color: rgb(255, 255, 255, 0.4);
+}
+
+.main-img {
+  width: 20vw;
+  height: 40vh;
+  border-radius: 30px;
+  object-fit: cover;
+  object-position: -11rem 0px;
+  margin-bottom: 10px;
+  
+}
+
+.card:nth-child(1) .main-img {
+  object-position: center -80px;
+}
+
+.card:nth-child(3) .main-img {
+  object-position: 0px 0px;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 0.4fr;
+    align-items: center;
+gap: px;
+}
+
+.info .avatar {
+  aspect-ratio: 1 / 1;
+  width:40px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.info .data .username{
+    margin-bottom: 6px;
+}
+
+.info .data .tag{
+    
+    background-color: rgb(128, 128, 128,0.1);
+    padding: 3px 7px;
+    border-radius: 50px;
+    
+}
+
+.info .data .pro{
+    background-color: black;
+    color: white;
+}
+
+.info .btn-connect{
+    padding: 10px 0;
+    border-radius: 9px;
+    border: none;
+    background-color: black;
+    color: white;
+}
