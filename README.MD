@@ -5,7 +5,7 @@
 
 ## 📸 Preview
 
-![Profile Card Preview](./public/image/screencapture-127-0-0-1-5500-csstp-Carrd-Template-index-html-2026-11-05-20_43_52.png)
+![Profile Card Preview](./public/image/ex3.png)
 
 # Interactive Profile Cards
 
