@@ -1,7 +1,7 @@
 # Interactive Profile Cards
 
 
-🔗 **[View the Live Demo Here](https://tahasoumbate.github.io/Henry-Interactive-Profile-Card/)**
+🔗 **[View the Live Demo Here](https://tahasoumbate.github.io/Interactive-Profile-Cards/)**
 
 ## 📸 Preview
 
